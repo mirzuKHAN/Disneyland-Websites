@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="CS2204">
+  <meta name="description" content="The order page can help you order the tickets, dinings and hotels. It will also show what you have ordered. ">
+  <meta name="keywords" content="ticket menu, dinings menu, hotel menu, ordered items">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/order.css" media="only screen">
+  <link rel="stylesheet" type="text/css" href="../css/printOrder.css" media="only print">
+  <link rel="stylesheet" type="text/css" href="../css/common.css" media="only screen">
+  <title>Order Page</title>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div id="header">
+      <div id="div1">
+        <img src="../image/logo.png" alt="ticket">
+      </div>
+      <div id="header_text">
+        <h1>DisneyLand</h1>
+      </div>
+    </div>
+  </header>
+  <div id="welcome">
+    <p>Welcome</p>
+  </div>
+  <!-- menu -->
+
+  <div id="content1">
+    <div id="menu">
+      <h4>Menu</h4>
+      <h5 id="ticketLabel">Tickets</h5>
+      <h5 id="diningLabel">Dinings</h5>
+      <h5 id="hotelLabel">Hotels</h5>
+      <div id="menu_content">
+        <div id="menu_ticket">
+          <form action="#" id="ticket1" class="form0">
+            <img src="../image/ticket-1.jpeg" alt="1-Day Ticket" id="t1-img">
+            <label>1-Day Ticket</label>
+            <input name="t1-qty" type="number" id="t1-qty">
+            <button type="button" id="t1">Add</button><br>
+          </form>
+          <form action="#" id="ticket2" class="form0">
+            <img src="../image/ticket-2.jpeg" alt="1-Day Ticket (Child)" id="t2-img">
+            <label>1-Day Ticket (Child)</label>
+            <input name="t2-qty" type="number" id="t2-qty">
+            <button type="button" id="t2">Add</button><br>
+          </form>
+          <form action="#" id="ticket3" class="form0">
+            <img src="../image/ticket-3.jpeg" alt="2-Day Ticket" id="t3-img">
+            <label>2-Day Ticket</label>
+            <input name="t3-qty" type="number" id="t3-qty">
+            <button type="button" id="t3">Add</button>
+          </form>
+        </div>
+
+        <div id="menu_dinings">
+          <form action="#" id="dining1" class="form0">
+            <img src="../image/dining-1.jpeg" alt="Explorer's Semi Buffet" id="d1-img">
+            <label>Explorer's Semi Buffet</label>
+            <input name="d1-qty" type="number" id="d1-qty">
+            <button type="button" id="d1">Add</button><br>
+          </form>
+          <form action="#" id="dining2" class="form0">
+            <img src="../image/dining-2.jpeg" alt="3-in-1 Park Meal Voucher" id="d2-img">
+            <label>3-in-1 Park Meal Voucher</label>
+            <input name="d2-qty" type="number" id="d2-qty">
+            <button type="button" id="d2">Add</button><br>
+          </form>
+        </div> 
+
+        <div id="menu_hotel">
+          <form action="#" id="hotel1" class="form0">
+            <img src="../image/hotel-1.jpeg" alt="Standard Room" id="h1-img">
+            <label>Standard Room</label>
+            <input name="h1-qty" type="number" id="h1-qty">
+            <button type="button" id="h1">Add</button>
+          </form>
+          <form action="#" id="hotel2" class="form0">
+            <img src="../image/hotel-2.jpeg" alt="Deluxe Room" id="h2-img">
+            <label>Deluxe Room</label>
+            <input name="h2-qty" type="number" id="h2-qty">
+            <button type="button" id="h2">Add</button>
+          </form>
+          <form action="#" id="hotel3" class="form0">
+            <img src="../image/hotel-3.jpeg" alt="Sea View Room" id="h3-img">
+            <label>Sea View Room</label>
+            <input name="h3-qty" type="number" id="h3-qty">
+            <button type="button" id="h3">Add</button>
+          </form>
+          <form action="#" id="hotel4" class="form0">
+            <img src="../image/hotel-4.jpeg" alt="Kingdom Club Room" id="h4-img">
+            <label>Kingdom Club Room</label>
+            <input name="h4-qty" type="number" id="h4-qty">
+            <button type="button" id="h4">Add</button>
+          </form>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <!-- table-->
+  <div id="table0">
+    <h2>Ordered Items</h2>
+    <h4>7 Jul 2022 22:22</h4>
+    <table>
+      <caption>Table:4-No.of Guests 3</caption>
+      <thead>
+        <tr>
+        <th class="description">Description</th>
+        <th class="quantity">Qty</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfoot>
+        <tr>
+          <td class="description" id="total">Total</td>
+          <td class="quantity" id="totalqty">0</td>
+        </tr>
+      </tfoot>
+    </table>
+    <label>
+      <a id="undo" href="#" onclick="return undo()">undo</a>
+    </label>
+  </div>
+  
+  <!-- footer block -->
+  <footer> 
+    <p>&copy; CityU 2022 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href="design_page.html" target="_blank">CS2204</a></p>
+  </footer>
+  
+  <script src="../javascript/order.js"></script>
+</body>
+</html>

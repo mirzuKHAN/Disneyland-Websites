@@ -1,0 +1,84 @@
+header, #welcome, #nav, #pgcontent, footer {
+    border: 2px solid rgb(201, 1, 1);
+    border-radius: 20px;
+}
+dd img {
+    width: 70%;
+}
+a img {
+    width: 60%;
+}
+video {
+    width: 90%;
+}
+#nav {
+    width: 40%;
+    height: 850px;
+    float: left;
+}
+#nav dt {
+    margin-left: 2%;
+}
+#pgcontent {
+    position: relative;
+    width: 59%;
+    height: 850px;
+    float: right;
+    margin-bottom: 1px;
+}
+.cntr {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+#message {
+    text-align: center;
+}
+#form {
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+}
+#dvideo {
+    text-align: center;
+}
+#bktable {
+    margin-top: -6%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+tbody {
+    margin-top: 1.5vw;
+}
+#bktable td{
+    width: 21vw;
+}
+.twoo {
+    text-align: right;
+}
+#bktable select, input{
+    width: 21vw;
+    box-sizing: border-box;
+
+}
+#bktable .button{
+    padding-right: 7vw;
+}
+.trans {
+    transition: all 0.5s ease-in-out;
+}
+.trans:hover {
+    background-color: rgb(236, 87, 87);
+}
+#reenter {
+    text-align: center;
+    color: rgb(201, 1, 1); 
+    display: none;
+}

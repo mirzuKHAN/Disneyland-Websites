@@ -1,0 +1,44 @@
+#header {
+    position: relative;
+    height: 90px;
+}
+#div1 {
+    width: 49%;
+    text-align: right;
+    position: absolute;
+    top: 4px;
+}
+#header_text {
+    width: 49%;
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+#welcome {
+    text-align: center;
+}
+#table0 {
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#table0 table {
+    width: 100%;
+}
+#description, .description {
+    text-align: left;
+}
+.quantity {
+    text-align: right;
+}
+#undo:visited {
+    color: black;
+}
+#content1 {
+    display: none;
+}
+footer {
+    display: none;
+}

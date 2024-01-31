@@ -1,0 +1,73 @@
+header, #welcome, #table0, footer {
+    border: 2px solid rgb(201, 1, 1);
+    border-radius: 20px;
+}
+#table0 {
+    width: 22%;
+    text-align: center;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#table0 table {
+    width: 100%;
+}
+#description, .description {
+    text-align: left;
+}
+.quantity {
+    text-align: right;
+}
+#undo {
+    text-decoration: none;
+}
+#undo:hover {
+    color: rgb(201, 1, 1);
+}
+#undo:visited {
+    color: rgb(201, 1, 1);
+    text-decoration: underline;
+}
+#menu {
+    width: 77%;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer {
+    clear: both;
+    margin-top: 30%;
+    text-align: center;
+}
+h4 {
+    margin: 0;
+}
+h5 {
+    border: 2px solid rgb(201, 1, 1);
+    border-radius: 8px;
+    width: 31%;
+    text-align: center;
+    float: left;
+    margin: 3px;
+}
+#ticketLabel, #diningLabel, #hotelLabel {
+    background: linear-gradient(to right, rgb(118, 165, 118), rgb(141, 141, 187), rgb(201, 149, 149), rgb(184, 141, 184));
+}
+#menu_ticket, #menu_hotel, #menu_dinings {
+    display: none;
+    margin-top: 20px;
+}
+/* #ticketLabel:hover ~ #menu_content #menu_ticket, #menu_ticket:hover, #diningLabel:hover ~ #menu_content #menu_dinings, #menu_dinings:hover, #hotelLabel:hover ~ #menu_content #menu_hotel, #menu_hotel:hover {
+    display: block;
+}
+#ticketLabel:hover, #diningLabel:hover, #hotelLabel:hover {
+    background: white;
+} */
+#ticket1, #ticket2, #ticket3, #hotel1, #hotel2, #hotel3, #hotel4, #dining1, #dining2 {
+    display: inline-block;
+    margin-top: 3px;
+    width: 33%;
+}
+#menu_content img {
+    border-radius: 10px;
+}

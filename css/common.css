@@ -1,0 +1,74 @@
+* {
+    color: rgb(36, 36, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 1px;
+    border-radius: 0 0 20px 20px;
+}
+#header {
+    position: relative;
+    height: 90px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+#div1 {
+    width: 49%;
+    text-align: right;
+    position: absolute;
+    top: 4px;
+}
+#header_text {
+    width: 49%;
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+#welcome {
+    text-align: center;
+    margin-bottom: 2vw;;
+}
+#welcome p {
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(to right, green, blue, red, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: welanim ease-in-out 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+@keyframes welanim {
+    0% {
+        transform: rotate(0deg);
+    }
+    33% {
+        transform: rotate(-30deg);
+    }
+    66% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+     }
+}
+body {
+    animation: fia ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fia {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
